@@ -1,0 +1,21 @@
+{
+  "type": "object",
+
+  "properties": {
+    "AddressLine": {
+      "type": "string"
+    },
+    "City": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Pincode": {
+      "type": "string"
+    },
+    "ContactNumber": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "ItemCode": {
+      "type": "string"
+    },
+    "ItemDescription": {
+      "type": "string"
+    },
+    "ItemPrice": {
+      "type": "number"
+    },
+    "ItemQty": {
+      "type": "integer"
+    },
+    "ItemValue": {
+      "type": "number"
+    }
+  }
+}

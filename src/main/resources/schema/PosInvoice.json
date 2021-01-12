@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "extends" : { "$ref" :  "Invoice.json"},
+
+  "properties": {
+    "StoreID": {
+      "type": "string"
+    },
+    "CashierID": {
+      "type": "string"
+    },
+    "PosID": {
+      "type": "string"
+    },
+    "DeliveryType": {
+      "type": "string"
+    },
+    "DeliveryAddress": {
+      "type": "object",
+      "$ref"  : "DeliveryAddress.json"
+    }
+  }
+}
